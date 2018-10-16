@@ -1,0 +1,18 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+pymongo = "*"
+pytest = "*"
+pymysql = "*"
+
+
+[dev-packages]
+
+"flake8" = "*"
+black = "*"
